@@ -1,0 +1,24 @@
+.body{
+    &__main-title{
+        margin-top:50px;
+        font-size:32px;
+        text-align: center; 
+        text-transform: uppercase;
+        font-weight:700;
+    }
+    &__main-title-flex{
+        display: flex;
+        align-items: center;
+    }
+    &__main-title-text{
+        text-align: center; 
+        width: 100%;
+    }
+    &__main-btn{
+        font-size:14px;
+    }
+}
+
+.labels{
+    font-size:100px;
+}

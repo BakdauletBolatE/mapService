@@ -1,0 +1,38 @@
+.rectangle-grid{
+    margin-top:60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap:10px;
+    &__item{
+        position: relative;
+        color: black;
+        background-color:$lavender_web;
+        height:200px;
+        cursor: pointer;
+        border-radius: 5px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        transition: 0.2s ease;
+
+        &:hover{
+            transition: 0.2s ease;
+            transform: scale(1.03);
+            border-radius: 10px;
+            background-color:darken($lavender_web, 4%);
+        }
+    }
+    &__icon{
+        width:45px;
+        height:45px;
+    }
+    &__text{
+        position: absolute;
+        text-align: center;
+        width:100%;
+        bottom:16px;
+        font-weight: 700;
+        left:0px;
+        margin:0px;
+    }
+}

@@ -1,0 +1,20 @@
+.switch-btns{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__item{
+        background-color: $cadet_blue;
+        padding:10px 40px;
+        cursor:pointer;
+        font-weight: bold;
+        margin-right: 5px;
+        border-radius:5px;
+
+        &--active{
+            background-color: darken($cadet_blue,10%);
+        }
+    }
+
+
+}
